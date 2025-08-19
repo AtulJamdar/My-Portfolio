@@ -12,7 +12,7 @@ export default function Hero() {
                 transition={{ duration: 1 }}
             >
                 <img
-                    src="\src\Images\Atul.jpg" // 👉 replace with your image file
+                    src="src\Images\Atul.jpg" // 👉 replace with your image file
                     alt="Atul Jamdar"
                     className="w-40 h-40 sm:w-56 sm:h-56 md:w-72 md:h-72 rounded-full border-4 border-blue-600 shadow-lg object-cover"
                 />
@@ -48,7 +48,7 @@ export default function Hero() {
                     transition={{ duration: 1, delay: 0.6, staggerChildren: 0.2 }}
                 >
                     <motion.a
-                        href="/resume.pdf"
+                        href="src\Images\Atul.Resume.pdf"
                         className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition duration-300"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}

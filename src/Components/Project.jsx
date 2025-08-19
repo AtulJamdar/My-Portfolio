@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const projects = [
     {
         title: "Todo List",
-        description: "A simple Todo List App with daily reminders",
+        description: "This project is a classic Todo List App built using fundamental web technologies: HTML, CSS, and vanilla JavaScript. It allows users to add, manage, and mark as done tasks in a clean and interactive interface. The app demonstrates a solid grasp of core web development principles, including DOM manipulation and basic event handling, without relying on external libraries or frameworks.",
         technologies: ["HTML", "CSS", "JavaScript"],
         liveDemo: "https://atuljamdar.github.io/Todo-App/",
         github: "https://github.com/AtulJamdar/Todo-App",
@@ -11,22 +11,22 @@ const projects = [
     {
         title: "Tenzis Game",
         description:
-            "A digital dice-rolling game built with React, based on the classic Tenzies game",
+            "This is a fun, interactive digital dice-rolling game, Tenzies,  built entirely with React. It challenges players to roll dice until all are the same, showcasing dynamic user interaction and core React concepts like state management and conditional rendering.",
         technologies: ["React", "HTML", "CSS", "JavaScript"],
         liveDemo: "https://atuljamdar.github.io/AtulJamdar/",
         github: "https://github.com/AtulJamdar/AtulJamdar",
     },
     {
-        title: "Recipe Generator",
+        title: "Weather App",
         description:
-            "A React application that leverages the Hugging Face API to generate unique recipes based on user input",
-        technologies: ["React", "HTML", "CSS", "JavaScript", "Hugging Face API"],
-        liveDemo: "#",
-        github: "#",
+            "This project is a dynamic Weather App built with React, Vite, and Material-UI. It fetches real-time weather data from a public API and displays key information like temperature, humidity, and location in a responsive and user-friendly interface. The app demonstrates a strong understanding of state management, API integration, and conditional rendering.",
+        technologies: ["React", "HTML", "CSS", "JavaScript", "Wheather.api"],
+        liveDemo: "https://atuljamdar.github.io/Weather-App/",
+        github: "https://github.com/AtulJamdar/Weather-App",
     },
     {
         title: "Word Guessing Game",
-        description: "A simple word-guessing game built with React",
+        description: "This Word Guessing Game, developed using React, is a fun and engaging interactive application. Players try to guess a hidden word within a set number of attempts, receiving feedback after each guess. This project effectively demonstrates fundamental React concepts like managing component state, handling user input, and implementing game logic for an interactive experience.",
         technologies: ["React", "HTML", "CSS", "JavaScript"],
         liveDemo: "https://atuljamdar.github.io/Word-Guessing-Game/",
         github: "https://github.com/AtulJamdar/Word-Guessing-Game",
