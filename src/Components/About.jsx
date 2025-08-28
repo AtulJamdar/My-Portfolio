@@ -1,5 +1,5 @@
 import { FaReact, FaHtml5, FaCss3Alt, FaJsSquare, FaGitAlt } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiNodedotjs, SiExpress } from "react-icons/si";
 import { motion } from "framer-motion";
 
 export default function AboutMe() {
@@ -41,6 +41,8 @@ export default function AboutMe() {
                 <Skill icon={<FaCss3Alt />} label="CSS" color="text-blue-500" delay={0.4} />
                 <Skill icon={<SiTailwindcss />} label="Tailwind CSS" color="text-teal-400" delay={0.5} />
                 <Skill icon={<FaGitAlt />} label="Git" color="text-red-500" delay={0.6} />
+                <Skill icon={<SiNodedotjs />} label="Node.js" color="text-green-500" delay={0.7} />
+                <Skill icon={<SiExpress />} label="Express" color="text-gray-500" delay={0.8} />
             </div>
         </section>
     );

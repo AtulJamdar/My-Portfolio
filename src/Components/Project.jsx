@@ -31,6 +31,20 @@ const projects = [
         liveDemo: "https://atuljamdar.github.io/Word-Guessing-Game/",
         github: "https://github.com/AtulJamdar/Word-Guessing-Game",
     },
+    {
+        title: "From Other Side",
+        description: "From Other Side is a backend server application built with Node.js. This project demonstrates fundamental server-side skills, including creating a server from scratch and handling various API requests. It showcases the ability to manage routing and serve dynamic data by utilizing path and query parameters to return customized API responses.",
+        technologies: ["Node.js", "HTML", "CSS", "JavaScript"],
+        liveDemo: "https://from-other-side.onrender.com/upload-sighting.html",
+        github: "https://github.com/AtulJamdar/From_Other_Side",
+    },
+    {
+        title: "My Music",
+        description: "My Music is a full-stack e-commerce application built with Express.js and Node.js. It simulates an indie rock vinyl store where users can browse, manage orders, and receive real-time updates on their purchases. The project showcases key back-end skills, including user authentication, protected routes, inventory management, and utilizing a database to handle order processing.",
+        technologies: ["Node.js", "Express.js", "HTML", "CSS", "JavaScript"],
+        liveDemo: "https://sounds-ql3h.onrender.com",
+        github: "https://github.com/AtulJamdar/My_Music",
+    },
 ];
 
 export default function Projects() {
