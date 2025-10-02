@@ -37,7 +37,7 @@ export default function Hero() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.4 }}
                 >
-                    React Developer | BCA Graduate
+                    Web Developer | BCA Graduate
                 </motion.p>
 
                 {/* Call to Action Buttons */}
@@ -48,7 +48,7 @@ export default function Hero() {
                     transition={{ duration: 1, delay: 0.6, staggerChildren: 0.2 }}
                 >
                     <motion.a
-                        href="src\Images\Atul.Resume.pdf"
+                        href="src\Images\Atul_Jamdar.Resume.pdf"
                         className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition duration-300"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}

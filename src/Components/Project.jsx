@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 
 const projects = [
     {
-        title: "Todo List",
-        description: "This project is a classic Todo List App built using fundamental web technologies: HTML, CSS, and vanilla JavaScript. It allows users to add, manage, and mark as done tasks in a clean and interactive interface. The app demonstrates a solid grasp of core web development principles, including DOM manipulation and basic event handling, without relying on external libraries or frameworks.",
-        technologies: ["HTML", "CSS", "JavaScript"],
-        liveDemo: "https://atuljamdar.github.io/Todo-App/",
-        github: "https://github.com/AtulJamdar/Todo-App",
+        title: "SyncFlow",
+        description: "SyncFlow is a full-stack project management application I built from the ground up, designed to help freelancers and small agencies organize their work. Think of it as a central hub to manage clients, track project progress, and handle invoices, all in one place.The most exciting feature is the role-based user system. I designed the application to provide a unique experience for different types of users. For example, an Admin has full control and can see a business analytics dashboard with revenue charts. A Manager has their own dashboard to manage their teams, while an Accountant can focus on creating and tracking invoices. Regular Users have a simple view to see only the projects they are assigned to.To make the application feel modern and collaborative, I also implemented real-time notifications. When a manager assigns a user to a new project, that user gets an instant pop-up notification. I also built a complete, secure authentication system with login, registration, and a 'forgot password' feature that works through email. The entire user interface is fully responsive and includes a dark mode/light mode toggle to ensure it's easy to use on any device, day or night.",
+        technologies: ["React", "Tailwind CSS", "JavaScript","TanStack Query","Zustand","Node.js","Express.js","MongoDB","Mongoose","JSON Web Tokens (JWT)",],
+        liveDemo: "https://syncflow-xnch.onrender.com/",
+        github: "https://github.com/AtulJamdar/SyncFlow",
     },
     {
         title: "Tenzis Game",
@@ -17,6 +17,13 @@ const projects = [
         github: "https://github.com/AtulJamdar/AtulJamdar",
     },
     {
+        title: "Word Guessing Game",
+        description: "This Word Guessing Game, developed using React, is a fun and engaging interactive application. Players try to guess a hidden word within a set number of attempts, receiving feedback after each guess. This project effectively demonstrates fundamental React concepts like managing component state, handling user input, and implementing game logic for an interactive experience.",
+        technologies: ["React", "HTML", "CSS", "JavaScript"],
+        liveDemo: "https://atuljamdar.github.io/Word-Guessing-Game/",
+        github: "https://github.com/AtulJamdar/Word-Guessing-Game",
+    },
+    {
         title: "Weather App",
         description:
             "This project is a dynamic Weather App built with React, Vite, and Material-UI. It fetches real-time weather data from a public API and displays key information like temperature, humidity, and location in a responsive and user-friendly interface. The app demonstrates a strong understanding of state management, API integration, and conditional rendering.",
@@ -25,11 +32,11 @@ const projects = [
         github: "https://github.com/AtulJamdar/Weather-App",
     },
     {
-        title: "Word Guessing Game",
-        description: "This Word Guessing Game, developed using React, is a fun and engaging interactive application. Players try to guess a hidden word within a set number of attempts, receiving feedback after each guess. This project effectively demonstrates fundamental React concepts like managing component state, handling user input, and implementing game logic for an interactive experience.",
-        technologies: ["React", "HTML", "CSS", "JavaScript"],
-        liveDemo: "https://atuljamdar.github.io/Word-Guessing-Game/",
-        github: "https://github.com/AtulJamdar/Word-Guessing-Game",
+        title: "Todo List",
+        description: "This project is a classic Todo List App built using fundamental web technologies: HTML, CSS, and vanilla JavaScript. It allows users to add, manage, and mark as done tasks in a clean and interactive interface. The app demonstrates a solid grasp of core web development principles, including DOM manipulation and basic event handling, without relying on external libraries or frameworks.",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        liveDemo: "https://atuljamdar.github.io/Todo-App/",
+        github: "https://github.com/AtulJamdar/Todo-App",
     },
     {
         title: "From Other Side",
