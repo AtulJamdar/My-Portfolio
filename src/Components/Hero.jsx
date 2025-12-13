@@ -12,7 +12,7 @@ export default function Hero() {
                 transition={{ duration: 1 }}
             >
                 <img
-                    src="/My-Portfolio/Atul.jpg" // 👉 replace with your image file
+                    src="/My-Portfolio/Atul1.png" // 👉 replace with your image file
                     alt="Atul Jamdar"
                     className="w-40 h-40 sm:w-56 sm:h-56 md:w-72 md:h-72 rounded-full border-4 border-blue-600 shadow-lg object-cover"
                 />
