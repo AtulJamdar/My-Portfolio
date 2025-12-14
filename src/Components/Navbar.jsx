@@ -48,7 +48,14 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 inset-x-0 z-50 bg-[rgb(var(--bg))]/90 backdrop-blur border-b border-gray-200 dark:border-gray-700">
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <span className="font-semibold text-lg">Atul Jamdar</span>
+      <a
+  href="#home"
+  onClick={() => setOpen(false)}
+  className="font-semibold text-lg hover:text-[rgb(var(--primary))] transition"
+>
+  Atul Jamdar
+</a>
+
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center gap-8 text-sm">
