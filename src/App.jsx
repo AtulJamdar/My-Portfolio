@@ -1,21 +1,24 @@
-import React from 'react'
-import Hero from './Components/Hero'
-import About from './Components/About'
-import Project from './Components/Project'
-import Contact from './Components/Contact'
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Skills from "./pages/Skills";
+import Services from "./pages/Services";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import { ThemeProvider } from "./context/ThemeContext";
 
-
-function App() {
-
-
+export default function App() {
   return (
-    <>
-      <Hero />
-      <About />
-      <Project />
-      <Contact />
-    </>
-  )
+    <ThemeProvider>
+      <Navbar />
+      <main className="pt-20">
+        <Home />
+        <About />
+        <Skills />
+        <Services />
+        <Projects />
+        <Contact />
+      </main>
+    </ThemeProvider>
+  );
 }
-
-export default App

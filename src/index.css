@@ -1,4 +1,47 @@
 @import "tailwindcss";
-html {
+
+/* ---------- Theme Variables ---------- */
+
+:root {
+    --bg: 255 255 255;
+    --text: 17 24 39;
+    --muted: 107 114 128;
+    --primary: 37 99 235;
+}
+
+.dark {
+    --bg: 17 24 39;
+    --text: 229 231 235;
+    --muted: 156 163 175;
+    --primary: 59 130 246;
+}
+
+
+/* ---------- Global Base ---------- */
+
+html,
+body {
+    background-color: rgb(var(--bg));
+    color: rgb(var(--text));
+    transition: background-color 0.3s ease, color 0.3s ease;
     scroll-behavior: smooth;
+}
+
+
+/* ---------- Scroll Animations ---------- */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.reveal.exit {
+    opacity: 0;
+    transform: translateY(-40px);
 }
